@@ -1,0 +1,49 @@
+body{
+    
+    background-color: black;
+    
+}
+.mywatch{
+    display: flex;
+    background-color: rgb(16, 65, 108);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+span{
+    font-size: 50px;
+    
+}
+.hour, .min, .scnd{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.dt{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin:0 0 0 100px; 
+    /* margin: top bottom right left;*/
+}
+
+.hour{
+    background-color: red;
+}
+.min{
+    background-color: green;
+}
+.scnd{
+    background-color: yellow;
+}
+@media(max-width:420px){
+    .mywatch{
+        padding: 1px;
+    }
+    .hour, .min, .scnd{
+        margin: 5px;
+    }
+}
